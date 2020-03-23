@@ -19,3 +19,16 @@ Cannot read property 'xxx' of undefined的问题，那么Optional Chaining就添
 ## postcss-px-to-viewport
 * webpack 插件，自动实现px到vw的转化
 * https://www.npmjs.com/package/postcss-px-to-viewport
+
+## webpack-bundle-analyzer
+*  打包大小分析插件
+*  使用方法：在vue.config.js中加入以下代码
+```javascript 
+	chainWebpack : config => {
+        config
+        .plugin("webpack-bundle-analyzer")
+        .use(require("webpack-bundle-analyzer").BundleAnalyzerPlugin)
+        .end();
+        config.plugins.delete("prefetch")
+    }
+```
