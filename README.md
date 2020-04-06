@@ -32,3 +32,10 @@ Cannot read property 'xxx' of undefined的问题，那么Optional Chaining就添
         config.plugins.delete("prefetch")
     }
 ```
+
+## big.js
+* 使用目的：
+1. 完美的十进制运算
+2. 超出整数值的安全计算
+* 缺点：
+不要用于UI或以性能为目的的运算
