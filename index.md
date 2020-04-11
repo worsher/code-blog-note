@@ -9,3 +9,6 @@ typescript学习中的一些记录
 
 ## [some-note](https://worsher.github.io/code-package-mark/some-note)
 一些零散的记录备忘
+
+## [使用Verdaccio搭建npm私服](https://worsher.github.io/code-package-mark/verdaccio)
+使用Verdaccio搭建npm私服过程中的一些坑
