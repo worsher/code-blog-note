@@ -8,8 +8,11 @@
 ### 搭建的过程
 其实搭建的过程很简单，网上的教程或者npm官方的包说明也很详细（[官方地址](https://www.npmjs.com/package/verdaccio)）
 命令如下：
+
 `npm install --global verdaccio`
+
 然后使用简单命令启动就行
+
 `verdaccio`
 
 此时如果是在本地直接访问http://localhost:4873/即可，但是到了服务器上就无法访问，这其中就有几个坑：
