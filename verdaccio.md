@@ -48,6 +48,7 @@ server {
 （1）安装前置包
 `sudo yum install yum-utils`
 （2）替换/etc/yum.repos.d/nginx.repo文件为以下内容
+
 ```
 [nginx-stable]
 name=nginx stable repo
@@ -65,5 +66,6 @@ enabled=0
 gpgkey=https://nginx.org/keys/nginx_signing.key
 module_hotfixes=true
 ```
+
 （3）再次执行命令安装即可
 `yum install nginx`
